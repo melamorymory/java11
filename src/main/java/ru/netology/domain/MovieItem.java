@@ -13,4 +13,36 @@ public class MovieItem {
         this.movieGenre = movieGenre;
         this.posterId = posterId;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getMovieName() {
+        return movieName;
+    }
+
+    public void setMovieName(String movieName) {
+        this.movieName = movieName;
+    }
+
+    public String getMovieGenre() {
+        return movieGenre;
+    }
+
+    public void setMovieGenre(String movieGenre) {
+        this.movieGenre = movieGenre;
+    }
+
+    public int getPosterId() {
+        return posterId;
+    }
+
+    public void setPosterId(int posterId) {
+        this.posterId = posterId;
+    }
 }
