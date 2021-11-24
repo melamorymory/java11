@@ -32,13 +32,15 @@ public class MovieManager {
             for (int i = 0; i < items.length; i++) {
                 int index = items.length - i - 1;
                 result[i] = items[index];
-            } return result;
+            }
+            return result;
         } else {
             MovieItem[] result = new MovieItem[resultLength];
             for (int i = 0; i < resultLength; i++) {
                 int index = resultLength - i - 1;
                 result[i] = items[index];
-            } return result;
+            }
+            return result;
         }
     }
 }
