@@ -16,9 +16,9 @@ class MovieManagerTest {
     private MovieRepo repository = Mockito.mock(MovieRepo.class);
     @InjectMocks
     private MovieManager manager;
-    private MovieItem first = new MovieItem(1,"Дюна","фантастика",10);
-    private MovieItem second = new MovieItem(2,"Вечные","фантастика",20);
-    private MovieItem third = new MovieItem(3,"Не время умирать","боевик",30);
+    private MovieItem first = new MovieItem(1, "Дюна", "фантастика", 10);
+    private MovieItem second = new MovieItem(2, "Вечные", "фантастика", 20);
+    private MovieItem third = new MovieItem(3, "Не время умирать", "боевик", 30);
 
 //    @Test
 //    public void shouldAdd() {
